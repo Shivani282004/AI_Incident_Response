@@ -1,0 +1,11 @@
+groups:
+  - name: system_alerts
+    rules:
+      - alert: LowMemoryAvailable
+        expr: node_memory_MemAvailable_bytes < 1000000000000 
+        for: 10s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Forced memory alert"
+          description: "Demo alert for testing memory condition"

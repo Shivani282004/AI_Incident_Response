@@ -1,0 +1,29 @@
+﻿
+
+2025-06-23T12:45:00Z level=error service=service-x message="OutOfMemoryError: Java heap space at com.app.ImageProcessor.process()" thread=worker-thread-5 class=ImageProcessor memory_used=892MB memory_total=1024MB
+2025-06-23T12:44:00Z level=warn service=service-x message="Memory usage approaching critical threshold: 89%" memory_percent=89 gc_count=15 gc_time=2.3s
+2025-06-23T12:43:00Z level=error service=api-gateway message="Request timeout after 30s for endpoint /api/v1/process-image" endpoint=/api/v1/process-image request_id=req-abc123 upstream_service=service-x timeout=30s
+2025-06-23T12:42:00Z level=info service=database message="Connection pool usage: 45/50 connections active" active_connections=45 max_connections=50 idle_connections=5
+2025-06-23T12:42:00Z level=info service=database message="Connection pool usage: 45/50 connections active" active_connections=45 max_connections=50 idle_connections=5
+2025-06-23T12:42:00Z level=info service=database message="Connection pool usage: 45/50 connections active" active_connections=45 max_connections=50 idle_connections=5
+
+  "timestamp": "2025-06-22T08:00:00", "level": "ERROR", "message": "Pod crashloop backoff"
+  "timestamp": "2025-06-22T08:01:00", "level": "WARN", "message": "DB connection timeout"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+  
+  "timestamp": "2025-06-22T08:00:00", "level": "ERROR", "message": "Pod crashloop backoff"
+  "timestamp": "2025-06-22T08:01:00", "level": "WARN", "message": "DB connection timeout"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+    "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+  "timestamp": "2025-06-22T08:01:05", "level": "INFO", "message": "Restarting service xyz"
+
+
+2025-06-23T12:45:00Z level=error service=service-x message="OutOfMemoryError: Java heap space at com.app.ImageProcessor.process()" thread=worker-thread-5 class=ImageProcessor memory_used=892MB memory_total=1024MB
+
+2025-06-23T12:45:00Z level=error service=service-x message="OutOfMemoryError: Java heap space at com.app.ImageProcessor.process()" thread=worker-thread-5 class=ImageProcessor memory_used=892MB memory_total=1024MB
+
+2025-06-23T12:45:00Z level=error service=service-x message="OutOfMemoryError: Java heap space at com.app.ImageProcessor.process()" thread=worker-thread-5 class=ImageProcessor memory_used=892MB memory_total=1024MB
